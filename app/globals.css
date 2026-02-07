@@ -24,3 +24,40 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  /* Floating animations for tech cards */
+  @keyframes float-smooth {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    33% {
+      transform: translate(10px, -15px);
+    }
+    66% {
+      transform: translate(-8px, -25px);
+    }
+  }
+
+  @keyframes float-delayed {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    33% {
+      transform: translate(-12px, -18px);
+    }
+    66% {
+      transform: translate(15px, -22px);
+    }
+  }
+
+  .animate-float-smooth {
+    animation: float-smooth 7s ease-in-out infinite;
+  }
+
+  .animate-float-delayed {
+    animation: float-delayed 8s ease-in-out infinite;
+  }
+}

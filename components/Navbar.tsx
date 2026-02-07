@@ -7,14 +7,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-green-50/95 backdrop-blur-md border-b border-green-100 shadow-sm px-4 sm:px-6 py-3">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-50/95 backdrop-blur-md border-b border-gray-100 shadow-sm px-4 sm:px-6 py-3">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link
           href="/"
           className="text-gray-700 text-2xl font-light flex items-center gap-2"
         >
-          <span className="text-yellow-200 bg-black px-2 py-1 rounded-md font-light">
+          <span className="text-white bg-gray-900 px-2 py-1 rounded-md font-light">
             Digital
           </span>
           Dynamo
