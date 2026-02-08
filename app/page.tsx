@@ -49,7 +49,7 @@ export default function Home() {
             {/* Floating Tech Icons/Cards */}
             <div className="absolute inset-0 p-4 sm:p-6 md:p-8">
               {/* Digital Marketing */}
-              <div className="absolute top-6 sm:top-8 md:top-12 left-4 sm:left-6 md:left-12 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-smooth">
+              <div className="absolute top-12 sm:top-8 md:top-12 left-4 sm:left-6 md:left-12 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-smooth">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-blue-500/20 rounded-lg flex items-center justify-center">
                     <svg
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
 
               {/* Web Development */}
-              <div className="absolute top-24 sm:top-28 md:top-32 right-4 sm:right-8 md:right-16 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-delayed">
+              <div className="absolute top-32 sm:top-28 md:top-32 right-4 sm:right-8 md:right-16 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-delayed">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-green-500/20 rounded-lg flex items-center justify-center">
                     <svg
@@ -97,7 +97,7 @@ export default function Home() {
               </div>
 
               {/* Mobile Apps */}
-              <div className="absolute bottom-24 sm:bottom-28 md:bottom-32 left-6 sm:left-12 md:left-20 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-smooth">
+              <div className="absolute bottom-32 sm:bottom-28 md:bottom-32 left-6 sm:left-12 md:left-20 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-smooth">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-purple-500/20 rounded-lg flex items-center justify-center">
                     <svg
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
 
               {/* AI ChatBot */}
-              <div className="absolute bottom-8 sm:bottom-12 md:bottom-16 right-4 sm:right-8 md:right-12 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-delayed">
+              <div className="absolute bottom-12 sm:bottom-12 md:bottom-16 right-4 sm:right-8 md:right-12 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 rounded-xl sm:rounded-2xl border border-white/20 shadow-xl animate-float-delayed">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cyan-500/20 rounded-lg flex items-center justify-center">
                     <svg
