@@ -32,9 +32,22 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-black rounded-full hover:bg-gray-800 transition shadow-md hover:shadow-lg"
+                className="group inline-flex items-center justify-center gap-0 hover:gap-2.5 px-8 py-3.5 text-base font-semibold text-white bg-black rounded-full hover:bg-gray-800 transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 Contact Us
+                <svg
+                  className="w-5 h-5 opacity-0 group-hover:opacity-100 scale-75 group-hover:scale-100 transition-all duration-300"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2.5"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6"
+                  />
+                </svg>
               </Link>
               <Link
                 href="/portfolio"
