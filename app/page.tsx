@@ -18,7 +18,9 @@ export default function Home() {
               <br />
               with our progressive
               <br />
-              <span className="text-gray-500">IT strategies.</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-gray-700 to-gray-500">
+                IT strategies.
+              </span>
             </h1>
 
             <p className="text-base md:text-lg text-gray-500 max-w-lg mx-auto lg:mx-0 leading-relaxed">
