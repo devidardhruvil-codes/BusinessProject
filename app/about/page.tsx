@@ -100,6 +100,29 @@ const cards = [
     accent: "#10b981",
     bg: "from-emerald-950 to-slate-900",
   },
+
+  {
+    icon: (
+      <svg
+        className="w-8 h-8 text-white"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1.5}
+          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+    ),
+    title: "Our Commitment",
+    tag: "05 — PROMISE",
+    text: "We stand by our work with long-term support, honest communication, and a genuine dedication to your long-term success — because your growth is the true measure of ours.",
+    accent: "#ec4899", // pink/fuchsia
+    bg: "from-pink-950 to-slate-900",
+  },
 ];
 
 const stats = [
@@ -1009,13 +1032,6 @@ export default function About() {
           </svg>
         </Link>
       </section>
-
-      <style>{`
-        @keyframes progressFill {
-          from { width: 0% }
-          to   { width: 100% }
-        }
-      `}</style>
     </main>
   );
 }

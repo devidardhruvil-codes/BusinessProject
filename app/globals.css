@@ -35,6 +35,15 @@
       transform: translate(15px, -22px);
     }
   }
+
+  @keyframes progressFill {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
 }
 
 /* Optional: if you want to keep them in utilities layer too */
