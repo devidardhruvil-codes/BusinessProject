@@ -162,46 +162,18 @@ const timeline = [
 
 const team = [
   {
-    name: "Alex Morgan",
-    role: "Founder & CEO",
-    initials: "AM",
-    color: "#3b82f6",
+    name: "Pratishtha Gohil",
+    role: "CEO & Founder",
+    initials: "PG",
+    color: "#8b5cf6",
     bio: "15 years in enterprise software. Passionate about bridging the gap between technology and business outcomes.",
   },
   {
-    name: "Priya Sharma",
-    role: "CTO",
-    initials: "PS",
-    color: "#8b5cf6",
-    bio: "Former Google engineer. Leads our engineering culture and drives our technical vision across all products.",
-  },
-  {
-    name: "James Okafor",
-    role: "Head of Design",
-    initials: "JO",
-    color: "#10b981",
-    bio: "Award-winning UX designer with a focus on creating interfaces that feel effortless to every user.",
-  },
-  {
-    name: "Sofia Reyes",
-    role: "VP of Client Success",
-    initials: "SR",
-    color: "#f59e0b",
-    bio: "Dedicated to ensuring every client relationship grows stronger with each delivery and milestone.",
-  },
-  {
-    name: "Daniel Park",
-    role: "Head of AI & Data",
-    initials: "DP",
+    name: "Dhruvil Devidar",
+    role: "CTO & Co-Founder",
+    initials: "DD",
     color: "#ef4444",
-    bio: "PhD in Machine Learning. Turns complex data challenges into practical, impactful AI solutions.",
-  },
-  {
-    name: "Leila Hassan",
-    role: "Lead Engineer",
-    initials: "LH",
-    color: "#06b6d4",
-    bio: "Full-stack expert and open-source contributor. Leads delivery on our most complex engineering projects.",
+    bio: "Former Google engineer. Leads our engineering culture and drives our technical vision across all products.",
   },
 ];
 
@@ -779,7 +751,7 @@ export default function About() {
             invested in your success.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {team.map((member, i) => (
             <div
               key={i}
