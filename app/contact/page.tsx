@@ -149,29 +149,29 @@ const afterSubmitSteps = [
 
 const handlers = [
   {
-    name: "Alex Morgan",
+    name: "Pratishtha Gohil",
     role: "Founder & CEO",
-    initials: "AM",
+    initials: "PG",
     color: "#3b82f6",
     handles: ["Strategy", "Enterprise"],
     note: "Leads all new enterprise conversations personally.",
   },
   {
-    name: "Sofia Reyes",
-    role: "VP of Client Success",
-    initials: "SR",
+    name: "Dhruvil Devidar",
+    role: "CTO & Co-founder",
+    initials: "DD",
     color: "#f59e0b",
     handles: ["Startups", "Growth"],
     note: "Your first point of contact for most enquiries.",
   },
-  {
-    name: "Daniel Park",
-    role: "Head of AI & Data",
-    initials: "DP",
-    color: "#ef4444",
-    handles: ["AI / ML", "Data"],
-    note: "Takes the lead on all AI and analytics briefs.",
-  },
+  // {
+  //   name: "Daniel Park",
+  //   role: "Head of AI & Data",
+  //   initials: "DP",
+  //   color: "#ef4444",
+  //   handles: ["AI / ML", "Data"],
+  //   note: "Takes the lead on all AI and analytics briefs.",
+  // },
 ];
 
 const faqs = [
@@ -955,7 +955,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {handlers.map((person, i) => (
             <div
               key={i}
