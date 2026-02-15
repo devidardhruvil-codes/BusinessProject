@@ -1032,6 +1032,17 @@ export default function About() {
           </svg>
         </Link>
       </section>
+      <style>
+        {`
+        @keyframes progressFill {
+          from {
+            width: 0%;
+          }
+          to {
+            width: 100%;
+          }
+        }`}
+      </style>
     </main>
   );
 }
