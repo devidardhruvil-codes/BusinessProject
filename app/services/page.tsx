@@ -291,16 +291,16 @@ export default function Services() {
   };
 
   return (
-    <main className="min-h-screen bg-white pt-16 md:pt-[68px]">
+    <main className="min-h-screen bg-white pt-15 md:pt-14">
       {/* ── HERO ── */}
-      <section className="relative px-4 sm:px-6 lg:px-8 py-20 md:py-12 max-w-7xl mx-auto overflow-hidden">
+      <section className="relative px-4 sm:px-6 lg:px-8 py-20 md:py-28 max-w-7xl mx-auto overflow-hidden">
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-70 pointer-events-none" />
         <div className="absolute -bottom-16 -left-16 w-72 h-72 bg-violet-50 rounded-full blur-3xl opacity-60 pointer-events-none" />
         <div className="absolute top-1/2 left-1/3 w-64 h-64 bg-emerald-50 rounded-full blur-3xl opacity-40 pointer-events-none" />
 
         <div className="relative text-center space-y-7 max-w-3xl mx-auto">
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-blue-500 bg-blue-50 px-4 py-1.5 rounded-full">
-            What We Offer
+            Services We Offer
           </span>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] text-gray-900 tracking-tight">
             Six ways we
