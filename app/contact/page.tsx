@@ -150,7 +150,7 @@ const afterSubmitSteps = [
 const handlers = [
   {
     name: "Pratishtha Gohil",
-    role: "Founder & CEO",
+    role: "CEO & Founder",
     initials: "PG",
     color: "#8b5cf6",
     handles: ["Strategy", "Enterprise"],
